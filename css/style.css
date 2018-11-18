@@ -268,8 +268,9 @@ $;
 	margin-left: 20%;
 }
 .body .divtext3 {
-	bottom: 100px;
+	bottom: 10px;
 	top: 15%;
+	height: auto;
 }
 .body .selectionright .eu {
 	width: 50%;
