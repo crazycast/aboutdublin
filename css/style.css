@@ -199,11 +199,9 @@ footer {
 
 @media (max-width: 650px){
 	.asideleft {
-	width: 90%;
-	margin-right: 5%;
-	margin-left: 5%;
 	margin-top: 30px;
 	float: none;
+	width: 450px;
 }
 	
 .selectionright {
@@ -271,6 +269,7 @@ $;
 }
 .body .divtext3 {
 	bottom: 100px;
+	top: 50px;
 }
 .body .selectionright .eu {
 	width: 50%;
@@ -637,6 +636,10 @@ input:focus, textarea:focus {
 	margin-right: 10px;
 	margin-left: 10px;
 }
+.body .divtext3 {
+	top: 30px;
+}
+
 
 
 
