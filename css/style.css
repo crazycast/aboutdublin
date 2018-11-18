@@ -269,7 +269,7 @@ $;
 }
 .body .divtext3 {
 	bottom: 100px;
-	top: 50px;
+	top: 15%;
 }
 .body .selectionright .eu {
 	width: 50%;
@@ -637,7 +637,8 @@ input:focus, textarea:focus {
 	margin-left: 10px;
 }
 .body .divtext3 {
-	top: 30px;
+	top: 10%;
+	bottom: 10px;
 }
 
 
