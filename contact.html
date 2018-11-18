@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 
 <head>
 	
@@ -16,6 +16,21 @@
 <title>About Dublin</title>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 <link href="css/style.css" rel="stylesheet" type="text/css">
+<style href="css/style.css" type="text/css">
+@media (max-width:650px){
+.body .header {
+	height: 0%;
+	width: 0%;
+	
+	
+}
+.body .divtext3 {
+	bottom: 120px;
+}
+}
+
+
+</style>
 <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
 <script>var __adobewebfontsappname__="dreamweaver"</script>
 <script src="http://use.edgefonts.net/actor:n4:default;alfa-slab-one:n4:default.js" type="text/javascript"></script>
@@ -34,7 +49,11 @@
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topFixedNavbar1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-       
+	  
+     
+     </div>
+      
+
       
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="topFixedNavbar1">
@@ -56,21 +75,22 @@
     </div>
     <!-- /.navbar-collapse -->
   </div>
-  <!-- /.container-fluid -->
+  
+
 </nav>
 
 
-<header class="header"><img src="Images/Logo.png" alt="Dublin" class="logo"/></header>
+<header class="header"><img src="Images/Logo.png" alt="Dublin" class="logo1"/></header>
 
 
-<div class="divtext2">
+<div class="divtext3">
 
 <h2>Contact Form</h2>
 	
 	<form class="form" action="maia.thiago@yahoo.com.br">
 		
 		<p class="name">
-			<input type="text" name="name" id="name"class="formstyle"  placeholder="John Doe" />
+			<input type="text" name="name" id="name" class="formstyle"  placeholder="John Doe" />
 			<label for="name">Name</label>
 		</p>
 		
@@ -85,7 +105,7 @@
 		</p>		
 	
 		<p class="text">
-			<textarea name="text" class="formstyle"   placeholder="Write something to us" /></textarea>
+			<textarea name="text" class="formstyle"   placeholder="Write something to us"></textarea>
 		</p>
 		
 		<p class="submit">
@@ -107,8 +127,7 @@
 							<li><small> Copyright© 2018.</small></li>
                         </ul>
                     </div>              
-            </div> 
-	
+            	
 	</footer>
 <script src="js/jquery-1.11.3.min.js"></script>
 <script src="js/bootstrap.js"></script>

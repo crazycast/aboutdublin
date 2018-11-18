@@ -45,7 +45,35 @@ footer {
 	border-top-left-radius: 20px;
 	border-top-right-radius: 20px;
 }
-.body {
+
+.asideleft {
+	width: 30%;
+	margin-right: 5%;
+	margin-left: 1%;
+	margin-top: 30px;
+	float: left;
+	position: fixed;
+}
+.selectionright {
+	width: 55%;
+	float: right;
+	margin-right: 5%;
+	margin-top: 30px;
+	margin-left: 1%;
+	padding-left: 2.5%;
+	padding-top: 2.5%;
+	padding-right: 2.5%;
+	padding-bottom: 2.5%;
+	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,255,255,0.59) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,255,255,0.59) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,255,255,0.59) 100%);
+	background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(255,255,255,0.59) 100%);
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	margin-bottom: 100px;
+
 }
 
 .header {
@@ -54,6 +82,14 @@ footer {
 
 
 }
+
+.header1 {
+	text-align: center;
+	margin-top: 20px;
+
+
+}
+
 .divtext {
 	margin-top: 3%;
 	margin-top: 3%;
@@ -96,6 +132,29 @@ footer {
 	background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,255,255,0.59) 100%);
 	background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(255,255,255,0.59) 100%);
 	height: 70%;
+}
+
+.divtext3 {
+	margin-top: 3%;
+	margin-right: 5%;
+	margin-top: 3%;
+	margin-left: 25%;
+	padding-left: 2.5%;
+	padding-top: 2.5%;
+	padding-right: 2.5%;
+	padding-bottom: 2.5%;
+	border-top-right-radius: 25px;
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,255,255,0.59) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,255,255,0.59) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,255,255,0.59) 100%);
+	background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(255,255,255,0.59) 100%);
+	height: 550px;
+	position: fixed;
+	width: 50%;
+	bottom: 7%;
 }
 
 .nav {
@@ -214,6 +273,10 @@ $;
 	margin-top: 3%;
 	margin-left: 20%;
 }
+.body .divtext3 {
+	bottom: 100px;
+}
+
 
 
 
@@ -228,6 +291,12 @@ $;
 	width: 28%;
 
 }
+
+.logo1 {
+	width: 10%;
+
+}
+
 .text {
 	text-shadow: 4px 5px 17px #000000;
 	font-size: large;
@@ -249,6 +318,7 @@ $;
 }
 .eu {
 	float: left;
+	border-radius: 25%;
 
 
 
@@ -395,4 +465,148 @@ input:focus, textarea:focus {
 	border-radius: 3px;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;		
+}
+
+
+/* ===========================
+   ====== gallery ====== 
+   =========================== */
+
+  .wrap {
+       overflow: hidden;
+       margin: 10px;
+    }
+    .box {
+	float: left;
+	position: relative;
+	width: 20%;
+	padding-bottom: 20%;
+    }
+    .boxInner {
+	position: absolute;
+	left: 10px;
+	right: 10px;
+	top: 10px;
+	bottom: 10px;
+	overflow: hidden;
+	background-image: -webkit-linear-gradient(270deg,rgba(60,118,61,1.00) 0%,rgba(60,118,61,1.00) 51.30%,rgba(255,255,255,0.76) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(60,118,61,1.00) 0%,rgba(60,118,61,1.00) 51.30%,rgba(255,255,255,0.76) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(60,118,61,1.00) 0%,rgba(60,118,61,1.00) 51.30%,rgba(255,255,255,0.76) 100%);
+	background-image: linear-gradient(180deg,rgba(60,118,61,1.00) 0%,rgba(60,118,61,1.00) 51.30%,rgba(255,255,255,0.76) 100%);
+	border-radius: 25%;
+    }
+    .boxInner img {
+       width: 100%;
+    }
+    .boxInner .titleBox {
+       position: absolute;
+       bottom: 0;
+       left: 0;
+       right: 0;
+       margin-bottom: -50px;
+       background: #000;
+       background: rgba(0, 0, 0, 0.5);
+       color: #FFF;
+       padding: 10px;
+       text-align: center;
+       -webkit-transition: all 0.3s ease-out;
+       -moz-transition: all 0.3s ease-out;
+       -o-transition: all 0.3s ease-out;
+       transition: all 0.3s ease-out;
+    }
+    body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleBox {
+       margin-bottom: 0;
+    }
+    @media only screen and (max-width : 480px) {
+       /* Smartphone view: 1 tile */
+       .box {
+          width: 100%;
+          padding-bottom: 100%;
+       }
+    }
+    @media only screen and (max-width : 650px) and (min-width : 481px) {
+       /* Tablet view: 2 tiles */
+       .box {
+          width: 50%;
+          padding-bottom: 50%;
+       }
+    }
+    @media only screen and (max-width : 1050px) and (min-width : 651px) {
+       /* Small desktop / ipad view: 3 tiles */
+       .box {
+          width: 33.3%;
+          padding-bottom: 33.3%;
+       }
+    }
+    @media only screen and (max-width : 1290px) and (min-width : 1051px) {
+       /* Medium desktop: 4 tiles */
+       .box {
+          width: 25%;
+          padding-bottom: 25%;
+       }
+    }
+    
+    .selectableImageContainer {
+    border: 1px solid #CCC;
+    padding: 5px;
+    margin: 7px;
+    float: left;
+    width: 212px;
+    text-align: center;
+}
+
+.zoom_toolbar_button {
+    height: 32px;
+    width: 32px;
+    float: right;
+    border-radius: 4px;
+    margin-left: 2px;
+    margin-top: 8px;
+    cursor: pointer;
+    border: 1px solid #000000;
+    padding: 6px 0 0 3px;
+}
+
+.approved_image_toolbar_button {
+    background-color: #8bc249;
+    height: 32px;
+    width: 32px;
+    float: right;
+    border-radius: 4px;
+    margin-left: 2px;
+    margin-top: 8px;
+    cursor: pointer;
+    padding: 6px 0 0 3px;
+}
+
+.disapproved_image_toolbar_button {
+    background-color: #bb232a;
+    height: 32px;
+    width: 32px;
+    float: right;
+    border-radius: 4px;
+    margin-left: 2px;
+    margin-top: 8px;
+    cursor: pointer;
+    padding: 6px 0 0 1px;
+}
+
+.reviewIssuesButton {
+    margin-left: 20px;
+    color: #ffffff;
+    background-color: #00aeef;
+}
+
+.markAllReviewed {
+    background-color: #00aeef;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.white {
+    color: #ffffff;
+}
+.galeriatext {
+	margin-top: 15%;
 }
