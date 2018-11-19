@@ -132,9 +132,7 @@ footer {
 }
 
 .divtext3 {
-	margin-top: 3%;
-	margin-top: 3%;
-	margin-left: 17%;
+	margin-left: 300px;
 	padding-left: 2.5%;
 	padding-top: 2.5%;
 	padding-right: 2.5%;
@@ -151,6 +149,8 @@ footer {
 	margin-bottom: 50px;
 	position: fixed;
 	height: 550px;
+	margin-right: 300px;
+	margin-top: 50px;
 }
 
 .nav {
